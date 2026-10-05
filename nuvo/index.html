@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Óticas Nuvo | Óculos, lentes e exame de vista</title>
+<meta name="description" content="Óticas Nuvo: exame de vista, lentes, armações e lentes de contato com atendimento próximo. Agende pelo WhatsApp.">
+<meta name="theme-color" content="#102B46">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="img/icone-nuvo.svg">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#produtos">Ir para o conteúdo</a>
+
+<header class="top">
+  <a class="brand" href="#inicio" aria-label="Óticas Nuvo, início"><img src="img/logo-nuvo.svg" alt="Óticas Nuvo" width="150" height="65"></a>
+  <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span></button>
+  <nav id="menu" aria-label="Principal">
+    <a href="#produtos" data-tab="lentes">Lentes</a>
+    <a href="#produtos" data-tab="armacoes">Armações</a>
+    <a href="#produtos" data-tab="exames">Exames</a>
+    <a href="#como">Como funciona</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato" class="btn btn-sm">Agendar exame</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-blob b1" aria-hidden="true"></div>
+  <div class="hero-blob b2" aria-hidden="true"></div>
+  <div class="hero-text">
+    <h1>Enxergue o dia com mais <em class="hl">nitidez</em>.</h1>
+    <p>Exame de vista, lentes sob medida e armações para todo estilo, tudo no mesmo lugar e com atendimento sem pressa.</p>
+    <div class="actions">
+      <a class="btn" href="#contato">Agendar exame de vista</a>
+      <a class="btn btn-ghost" href="#produtos">Ver o que oferecemos</a>
+    </div>
+    <ul class="facts">
+      <li>Exame com optometrista</li>
+      <li>Ajuste e manutenção gratuitos</li>
+      <li>Parcelamento no cartão</li>
+    </ul>
+  </div>
+  <div class="chart" aria-hidden="true">
+    <img class="chart-eye" src="img/icone-nuvo.svg" alt="" width="120" height="120">
+    <p class="r1">N U</p>
+    <p class="r2">V O E</p>
+    <p class="r3">O L H A R</p>
+    <p class="r4">D E S C O B R I R</p>
+    <p class="r5">Ó T I C A S &nbsp; N U V O</p>
+  </div>
+</section>
+
+<section class="sec" id="produtos">
+  <div class="head">
+    <h2>O que você encontra na Nuvo</h2>
+    <p>Escolha uma aba para conhecer cada serviço.</p>
+  </div>
+  <div class="tabs" role="tablist" aria-label="Produtos e serviços">
+    <button role="tab" id="t-lentes" aria-controls="p-lentes" aria-selected="true">Nossas lentes</button>
+    <button role="tab" id="t-armacoes" aria-controls="p-armacoes" aria-selected="false" tabindex="-1">Armações</button>
+    <button role="tab" id="t-exames" aria-controls="p-exames" aria-selected="false" tabindex="-1">Exames</button>
+    <button role="tab" id="t-solar" aria-controls="p-solar" aria-selected="false" tabindex="-1">Óculos de sol</button>
+  </div>
+
+  <div class="panel" role="tabpanel" id="p-lentes" aria-labelledby="t-lentes">
+    <div class="cols">
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3.5"/></svg><h3>Visão simples</h3><p>Para miopia, hipermetropia e astigmatismo. Leves, finas e com vários níveis de espessura.</p></article>
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 9.5h17M3.5 14.5h17"/></svg><h3>Multifocais</h3><p>Longe, perto e intermediário na mesma lente, sem trocar de óculos a cada tarefa.</p></article>
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l1.7 4.8L18.5 10l-4.8 1.2L12 16l-1.7-4.8L5.5 10l4.8-1.2z"/><path d="M18.5 15.5l.6 1.9 1.9.6-1.9.6-.6 1.9-.6-1.9-1.9-.6 1.9-.6z"/></svg><h3>Tratamentos</h3><p>Antirreflexo, filtro de luz azul e fotossensível.</p></article>
+    </div>
+  </div>
+  <div class="panel" role="tabpanel" id="p-armacoes" aria-labelledby="t-armacoes" hidden>
+    <div class="cols">
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="14.5" r="3.6"/><circle cx="17" cy="14.5" r="3.6"/><path d="M10.6 14c.9-.7 1.9-.7 2.8 0M3.5 12.5L2.2 9.2M20.5 12.5l1.3-3.3"/></svg><h3>Acetato</h3><p>Cores profundas, acabamento macio e muito conforto para o dia inteiro.</p></article>
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11.5" width="7" height="5" rx="1.8"/><rect x="14" y="11.5" width="7" height="5" rx="1.8"/><path d="M10 14h4M3 11.5L1.8 8.5M21 11.5l1.2-3"/></svg><h3>Metal e titânio</h3><p>Hastes finas e resistentes, ideais para quem busca peso mínimo.</p></article>
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="15" r="3.4"/><circle cx="17" cy="15" r="3.4"/><path d="M10.4 14.6c.9-.7 2.3-.7 3.2 0"/><path d="M12 3.5l.8 1.7 1.8.3-1.3 1.3.3 1.8-1.6-.9-1.6.9.3-1.8L8.6 5.5l1.8-.3z"/></svg><h3>Infantil</h3><p>Armações flexíveis e resistentes, com ajuste para o rosto em crescimento.</p></article>
+    </div>
+  </div>
+  <div class="panel" role="tabpanel" id="p-exames" aria-labelledby="t-exames" hidden>
+    <div class="cols">
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></svg><h3>Exame de vista</h3><p>Medição completa do grau, com tempo para tirar dúvidas sobre o resultado.</p></article>
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12z"/><path d="M9.5 12.2l2 2 3.5-4.6"/></svg><h3>Triagem de saúde ocular</h3><p>Identifica sinais que precisam de avaliação do oftalmologista.</p></article>
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c3.2 0 6 2.5 6 5.6S15 15 12 15s-6-2.8-6-5.9 2.8-5.6 6-5.6z"/><path d="M6.5 19h11M9 21.5h6"/></svg><h3>Adaptação de lentes</h3><p>Teste e orientação de uso para quem está começando com lentes de contato.</p></article>
+    </div>
+  </div>
+  <div class="panel" role="tabpanel" id="p-solar" aria-labelledby="t-solar" hidden>
+    <div class="cols">
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.9 1.9M17.1 17.1L19 19M19 5l-1.9 1.9M6.9 17.1L5 19"/></svg><h3>Com ou sem grau</h3><p>Lentes solares com seu grau ou modelos prontos para o dia a dia.</p></article>
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l7.5 2.8v5.9c0 4.7-3.2 8-7.5 10.3C7.7 19.2 4.5 15.9 4.5 11.2V5.3z"/><path d="M8.8 11.8l2.2 2.2 4.2-4.6"/></svg><h3>Proteção UV400</h3><p>Bloqueio dos raios UVA e UVB para cuidar dos olhos no sol forte.</p></article>
+      <article><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 15.5c2 0 2 1.7 4 1.7s2-1.7 4-1.7 2 1.7 4 1.7 2-1.7 3.5-1.7"/><path d="M8.5 11.5l2-2M15.5 11.5l-2-2M12 10.5V7"/><circle cx="12" cy="4.5" r="1.6"/></svg><h3>Polarizadas</h3><p>Menos reflexo na água, na estrada e no asfalto.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="como">
+  <div class="head"><h2>Do exame ao óculos pronto</h2></div>
+  <ol class="steps">
+    <li><h3>Agende</h3><p>Escolha dia e horário pelo WhatsApp.</p></li>
+    <li><h3>Faça o exame</h3><p>Medimos seu grau e conversamos sobre sua rotina.</p></li>
+    <li><h3>Escolha</h3><p>Experimente armações e compare lentes com calma.</p></li>
+    <li><h3>Retire</h3><p>Avisamos quando ficar pronto e ajustamos no seu rosto.</p></li>
+  </ol>
+</section>
+
+<section class="sec" id="galeria">
+  <div class="head">
+    <h2>Quem já saiu da Nuvo com óculos novos</h2>
+    <p>Clientes reais, armações reais — e aquele brilho de enxergar bem.</p>
+  </div>
+  <div class="car">
+    <ul class="car-track" tabindex="0" aria-label="Fotos de clientes com armações da Nuvo, rolagem horizontal">
+      <li><figure><img src="img/cliente-1.jpg" alt="Duas clientes da Óticas Nuvo sorrindo com sacolas azuis da loja" width="495" height="597" loading="lazy"><figcaption>Cliente Nuvo</figcaption></figure></li>
+      <li><figure><img src="img/cliente-2.jpg" alt="Duas clientes da Nuvo com balões amarelos e sacola da loja" width="492" height="621" loading="lazy"><figcaption>Cliente Nuvo</figcaption></figure></li>
+      <li><figure><img src="img/cliente-3.jpg" alt="Cliente da Nuvo de boné e camisa branca fazendo sinal de positivo com a sacola da loja" width="491" height="671" loading="lazy"><figcaption>Cliente Nuvo</figcaption></figure></li>
+      <li><figure><img src="img/cliente-4.jpg" alt="Duas clientes abraçadas na loja Óticas Nuvo, uma usando óculos escuros" width="491" height="607" loading="lazy"><figcaption>Cliente Nuvo</figcaption></figure></li>
+      <li><figure><img src="img/cliente-5.jpg" alt="Cliente da Nuvo tirando foto no espelho com a sacola da loja" width="492" height="657" loading="lazy"><figcaption>Cliente Nuvo</figcaption></figure></li>
+      <li><figure><img src="img/cliente-6.png" alt="Cliente da Nuvo sorrindo com sacolas azuis da loja, de óculos escuros e vestido florida" width="491" height="442" loading="lazy"><figcaption>Cliente Nuvo</figcaption></figure></li>
+      <li><figure><img src="img/cliente-7.png" alt="Família de clientes da Óticas Nuvo sorrindo na loja com sacolas azuis" width="492" height="686" loading="lazy"><figcaption>Cliente Nuvo</figcaption></figure></li>
+      <li><figure><img src="img/cliente-8.png" alt="Cliente da Nuvo de óculos escuros e vestido cinza com a sacola da loja" width="235" height="492" loading="lazy"><figcaption>Cliente Nuvo</figcaption></figure></li>
+    </ul>
+  </div>
+  <p class="car-cta">Quer aparecer aqui? Marque <a href="https://instagram.com/oticasnuvo" rel="noopener">@oticasnuvo</a> na sua próxima foto.</p>
+</section>
+
+<section class="sec" id="sobre">
+  <div class="about">
+    <div>
+      <h2>Uma ótica que explica antes de vender</h2>
+      <p>Na Nuvo, cada indicação vem com o motivo. Você entende o que está levando, por que serve para o seu uso e quanto isso muda no seu dia.</p>
+    </div>
+    <ul class="why">
+      <li><strong>Atendimento próximo.</strong> Você fala com quem vai cuidar do seu óculos.</li>
+      <li><strong>Garantia de adaptação.</strong> Se a lente não se adaptar, a gente resolve.</li>
+      <li><strong>Pós-venda.</strong> Ajustes, limpeza e troca de plaquetas.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec alt" id="faq">
+  <div class="head"><h2>Perguntas frequentes</h2></div>
+  <div class="faq">
+    <details><summary>Preciso de receita para comprar óculos?</summary><p>Não. Se você não tiver receita atual, te auxiliamos no exame de vista aqui na loja.</p></details>
+    <details><summary>Em quanto tempo o óculos fica pronto?</summary><p>Lentes simples costumam ficar prontas em poucos dias. Multifocais e tratamentos especiais levam um pouco mais. Informamos o prazo na hora.</p></details>
+    <details><summary>Vocês aceitam cartão e parcelam?</summary><p>Sim, aceitamos cartões, Pix e parcelamento. Consulte as condições na loja.</p></details>
+    <details><summary>Posso trazer minha armação para trocar as lentes?</summary><p>Podemos avaliar. Se a armação estiver em bom estado, montamos lentes novas nela.</p></details>
+  </div>
+</section>
+
+<section class="sec contact" id="contato">
+  <div class="head">
+    <h2>Agende sua consulta</h2>
+    <p>Preencha e continue a conversa pelo WhatsApp.</p>
+  </div>
+  <div class="contact-grid">
+    <form id="form" novalidate>
+      <label>Nome<input name="nome" required autocomplete="name"></label>
+      <label>Serviço
+        <select name="servico">
+          <option>Óculos de grau</option><option>Óculos de sol</option><option>Outro assunto</option>
+        </select>
+      </label>
+      <label>Melhor dia e horário<input name="quando" placeholder="Ex.: sexta à tarde"></label>
+      <button class="btn" type="submit">Enviar pelo WhatsApp</button>
+    </form>
+    <address>
+      <h3>Endereço</h3>
+      <p>Multishopping sul, loja 126<br>Jaboatão dos Guararapes, PE</p>
+      <h3>Horário</h3>
+      <p>Segunda a sexta, 08:30 às 17h<br>Sábado, 08:30h às 14h</p>
+      <h3>Contato</h3>
+      <p><a id="zap" href="#">WhatsApp</a><br><a href="https://instagram.com/oticasnuvo" rel="noopener">@oticasnuvo</a></p>
+    </address>
+  </div>
+</section>
+</main>
+
+<footer>
+  <img src="img/logo-nuvo.svg" alt="Óticas Nuvo" width="110" height="48">
+  <p>&copy; <span id="ano">2026</span> Óticas Nuvo. Todos os direitos reservados.</p>
+</footer>
+
+<a class="float-zap" id="zap2" href="#" aria-label="Falar no WhatsApp"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.365.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413"/></svg><span>WhatsApp</span></a>
+<script src="js/main.js"></script>
+</body>
+</html>
