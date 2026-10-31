@@ -95,20 +95,6 @@ h3{font-size:1.25rem}
 .cols h3{transition:color .25s}
 .cols article:hover h3{color:var(--teal-d)}
 .cols p{margin-top:.5rem;color:var(--muted)}
-
-/* Centraliza última linha quando não preenche 3 colunas */
-.cols article:nth-last-child(1):nth-child(3n+1),
-.cols article:nth-last-child(2):nth-child(3n+1),
-.cols article:nth-last-child(2):nth-child(3n+2) {
-  grid-column: 2 / 4;
-}
-@media (max-width: 860px) {
-  .cols article:nth-last-child(1):nth-child(3n+1),
-  .cols article:nth-last-child(2):nth-child(3n+1),
-  .cols article:nth-last-child(2):nth-child(3n+2) {
-    grid-column: auto;
-  }
-}
 .panel[hidden]{display:none}
 
 .brand-logo{display:grid;place-items:center;margin-bottom:1rem}
