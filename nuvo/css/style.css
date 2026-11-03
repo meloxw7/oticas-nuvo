@@ -27,7 +27,7 @@ h3{font-size:1.25rem}
 .btn-ghost:hover{background:var(--navy);border-color:var(--navy);color:#fff}
 .btn-sm{padding:.55rem 1.1rem;font-size:.95rem}
 
-.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.6rem clamp(1rem,4vw,3rem);background:rgba(251,253,253,.6);backdrop-filter:blur(8px);border-bottom:1px solid #DCE9E8;transition:box-shadow .3s ease}
+.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.6rem clamp(1rem,4vw,3rem);background:rgba(251,253,253,.7);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid rgba(220,233,232,.6);box-shadow:0 4px 30px rgba(16,43,70,.05);transition:box-shadow .3s ease,background .3s ease}
 .top.scrolled{box-shadow:0 4px 24px rgba(16,43,70,.1)}
 .brand img{width:auto;height:48px;transition:transform .35s cubic-bezier(.34,1.56,.64,1)}
 .brand:hover img{transform:rotate(-4deg) scale(1.05)}
