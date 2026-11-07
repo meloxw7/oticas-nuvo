@@ -164,8 +164,9 @@ h3{font-size:1.25rem}
 .why li{padding:0 0 1.2rem;border-bottom:1px solid #D3E4E2}
 .why strong{color:var(--navy)}
 
-.loja-grid{margin-top:2.5rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:720px;gap:1.2rem}
+.loja-grid{margin-top:2.5rem;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:1080px;gap:1.2rem}
 .loja-grid figure{margin:0;border-radius:16px;overflow:hidden;box-shadow:0 8px 24px rgba(16,43,70,.12);aspect-ratio:4/3;transition:translate .3s ease,box-shadow .3s ease}
+@media (max-width:900px){.loja-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:720px}}
 @media (max-width:600px){.loja-grid{grid-template-columns:1fr;max-width:320px}}
 .loja-grid figure:hover{translate:0 -4px;box-shadow:0 14px 32px rgba(16,43,70,.18)}
 .loja-grid img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.3,1)}
